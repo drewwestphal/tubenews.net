@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>jefferiestube</title>
+
+    <style>
+      #bg {
+        position: relative;
+        width: 80%;
+        margin: auto;
+        max-width: 1000px;
+        background: no-repeat url(./home.png) 50% / 100%;
+      }
+      /* #### Mobile Phones Portrait or Landscape #### */
+      @media screen and (max-width: 640px) {
+        #bg {
+          width: 95%;
+        }
+      }
+      @media (orientation: portrait) {
+        body {
+          margin-top: 44px;
+        }
+      }
+
+      #bg img {
+        vertical-align: top;
+        width: 100%; /* max width */
+        opacity: 0; /* make it transparent */
+      }
+      #subscribe-btn {
+        position: absolute;
+        top: 23.0318257956449%;
+        left: 6.11510791366906%;
+        width: 90.347721822542%;
+        height: 10.8040201005025%;
+      }
+      #contact-btn {
+        position: absolute;
+        top: 67.1691792294807%;
+        left: 31.9544364508393%;
+        width: 67.2661870503597%;
+        height: 33.249581239531%;
+      }
+      #merch-btn {
+        position: absolute;
+        top: 38.6934673366834%;
+        left: 3.29736211031175%;
+        width: 54.6163069544365%;
+        height: 15.8291457286432%;
+      }
+      .floater {
+        background-color: black;
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bg">
+      <img src="./home.png" />
+      <a
+        id="subscribe-btn"
+        class="floater"
+        target="_blank"
+        href="https://airtable.com/shrDdQ3QzM4YCKRfl"
+      ></a>
+      <a
+        id="merch-btn"
+        class="floater"
+        target="_blank"
+        href="https://www.etsy.com/shop/jefferiestube "
+      ></a>
+      <a
+        id="contact-btn"
+        class="floater"
+        target="_blank"
+        href="mailto:gstreetjefferiestube@gmail.com?subject=I'd%20like%20to%20report%20a%20ratcrime&body=RAT%20CRIME%20REPORT%20FORM%0D%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0D%0A%0D%0ADATE%20OF%20OCCURRENCE%3A%0D%0A%0D%0ANUMBER%20OF%20RATS%20INVOLVED%3A%0D%0A%0D%0AMY%20FULL%20NAME%2C%20SOCIAL%20SECURITY%20NUMBER%20AND%20DATE%20OF%20BIRTH%3A%0D%0A%0D%0ANATURE%20OF%20RAT%20CRIME%3A%0D%0A%0D%0A%0D%0APLEASE%20PROVIDE%20MORE%20DETAIL%3A%0D%0A"
+      ></a>
+    </div>
+  </body>
+</html>
